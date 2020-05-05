@@ -1,2 +1,6 @@
 # RSA-algorithm(graph theory)
-project Name: Graph theory using RSA---- ProjectMember: Sidra Usman 63986, Ammar Haider 63813, Muhammad Saqlain 63814, Dua Javeria 63650, Humaira 63761
+===================================
+<h3>project Name: Graph theory using RSA</h3>
+<h4>ProjectMember: Sidra Usman 63986, Ammar Haider 63813, Muhammad Saqlain 63814, Dua Javeria 63650, Humaira 63761</h4>
+<h4>Group Leader: Sidra Usman </h4>
+
