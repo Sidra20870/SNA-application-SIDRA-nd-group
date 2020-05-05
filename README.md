@@ -3,8 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-
 <body>
 
 <h3 style="color:#FFFF00;">Project Name: </h3> <p>Graph theory using RSA</p>
