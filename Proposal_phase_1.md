@@ -4,7 +4,7 @@
 </head>
 <body>
     
-          <h1>  Project : Graph theory using SNA (social network analysis) </h1>
+ <h1>  Project : Graph theory using SNA (social network analysis) </h1>
      <h3> Project Members </h3>
         <p> Sidra Usman 63986 <br> Muhammad Saqlain 63814 <br> Muhammad Ammar Haider 63813 <br>
         Dua javeria 63650 <br> Humaira Noor 63761 </p>
