@@ -57,6 +57,7 @@
 <h2> Problem Faced </h2>
 <p>We have use networkx built in functions which was much difficult to understand but with the help of internet and understand their meta data we overcome this problem. We was facing communication problem among project partners beside this, this library contain limit functions which cause us to think how to distribute functions between the partners. So we decided each partner will do 2-3 functions.  </p>
 <h2> References </h2>
+https://networkx.github.io/documentation/stable/reference/functions.html<br>
 https://www.datacamp.com/community/tutorials/social-network-analysis-python<br>
 https://www.python-course.eu/graphs_python.php<br>
 https://youtu.be/FEyhMlC8xUM
