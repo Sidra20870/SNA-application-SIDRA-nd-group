@@ -77,46 +77,46 @@ Relationship includes,knowing a user which is connected to maximum or minimum nu
 <h2>CODE</h2>
 <div>
      <p>
-          import networkx as nz
-          G_symmetric = nz.Graph()
-          G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str)
+          import networkx as nz<br>
+          G_symmetric = nz.Graph()<br>
+          G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str)<br>
           ch=input('enter your choice')
           <hr>
-          if ch=='3':
-          count=0
-          nodee=input('enter the node')
-          for n in G_fb.neighbors(nodee):
-            print(n)
-            count+=1
+          if ch=='3':<br>
+          count=0<br>
+          nodee=input('enter the node')<br>
+          for n in G_fb.neighbors(nodee):<br>
+            print(n)<br>
+            count+=1<br>
           print("no.of edges=",count)
           <hr>
-     if ch=='10': 
-    li=[]
-    maxx=0
-    mn=0
-    minnode=0
-    minn=10
-    for i in G_fb:
-        li=list(nz.neighbors(G_fb,i))
-        if(maxx<len(li)):
-            maxx=len(li)
-            mn=i
-        if(minn>len(li)):
-            minn=len(li)
-            minnode=i
-    print("PERSON= "+str(mn)+"  connections= "+str(maxx))
+     if ch=='10': <br>
+    li=[]<br>
+    maxx=0<br>
+    mn=0<br>
+    minnode=0<br>
+    minn=10<br>
+    for i in G_fb:<br>
+        li=list(nz.neighbors(G_fb,i))<br>
+        if(maxx<len(li)):<br>
+            maxx=len(li)<br>
+            mn=i<br>
+        if(minn>len(li)):<br>
+            minn=len(li)<br>
+            minnode=i<br>
+    print("PERSON= "+str(mn)+"  connections= "+str(maxx))<br>
     print("PERSON= "+str(minnode)+"  connections= "+str(minn))
      <hr>
-     if ch=='11':
-    p1=input("person A?")
-    p2=input("person B?")
-    print('MUTUAL CONNECTIONS')
+     if ch=='11':<br>
+    p1=input("person A?")<br>
+    p2=input("person B?")<br>
+    print('MUTUAL CONNECTIONS')<br>
   
     
     print(sorted(nz.common_neighbors(G_fb, p1,p2)))
    
           
-     </p>
+    
  </div>
 <h2> Problem Faced </h2>
 <p>We have use networkx(library) built-in functions which were very difficult to understand but with the help of internet and understand their meta data and overcome this problem. We were facing communication problem among project partners beside this, this library contain limit functions which cause us to think how to distribute functions between the partners. So we decided each partner will do 2-3 functions
