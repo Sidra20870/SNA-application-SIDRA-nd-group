@@ -56,13 +56,14 @@ SNa: is the process of investigating social structures through the use of networ
                <li>* Team </li>
                <li>* Organization</li>
           </ul>
+          <li>path finding concept</li>
      </ul>
-     <li>*Path finding concept</li>
-     <li>*vertices and edge concept</li>
-     <li>*undirected graph as we haven't use weight</li>
 </ul>
  <h3> Facebook Network </h3>
- <p> 
+ <h3><center> Find Edges </center></h3>
+ <p> We can check total no of edges and and between 2 vertices and line join between 2 nodes called edge. </p>
+ <h3> Find Nodes </h3>
+ <p> We can check total no of nodes and all total nodes in our graph like set of vertices </p>
     
  
  <h2> Problems Faced </h2>
