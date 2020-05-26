@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
 </head>
 <body>
      <div style="background-color:black;color:white;padding:20px;">
-# DM 103348: Graph theory using SNA (social network analysis)
+          <h1> DM 103348: Graph theory using SNA (social network analysis) </h1>
      <h3> Project Members </h3>
+          <table style="width:100%">
+  <tr>
+    <th>Student Id</th>
+    <th>STudent Name</th> 
+  </tr>
+  <tr>
+    <td>63986</td>
+    <td>Sidra Usman</td>
+  </tr>
+  <tr>
+    <td>63813</td>
+    <td>Muhammad Ammar Haider</td>
+  </tr>
+  <tr>
+    <td>63650</td>
+    <td>Dua Javeria</td>
+  </tr>
+  <tr>
+    <td>63814</td>
+    <td>Muhammad Saqlain</td>
+  </tr>
+  <tr>
+    <td>63761</td>
+    <td>Humaira Noor</td>
+  </tr>
+            
+</table>
+
        Student Id | Name
      ------------ | -------------
         **63986** | _Sidra Usman_ 
@@ -39,6 +66,7 @@
 [link] https://www.datacamp.com/community/tutorials/social-network-analysis-python
 [link] https://www.python-course.eu/graphs_python.php
 [link] https://youtu.be/FEyhMlC8xUM
+</div>
 
 </body>
 </html>
