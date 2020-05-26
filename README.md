@@ -59,67 +59,10 @@ SNa: is the process of investigating social structures through the use of networ
           <li>path finding concept</li>
      </ul>
 </ul>
-
- <div>
-    </p>
-     <center><h2>MENU</h2></center>
-     <p>
-          print('press 1 to get number of nodes')<br>
-          print('press 2 to get number of edges')<br>
-          print('press 3 to get number of connected nodes')<br>
-          print('press 4 to draw graph')<br>
-          print('press 5 to get  path')<br>
-          print('press 6 to shortest path ')<br>
-          print('press 7 to get information')<br>
-          print('press 8 to get triadic closure')<br>
-          print('press 9 to get SELF CONNECTED PEOPLE')<br>
-          print('press 10 to get most connected person')<br>
-          print('press 11 to get mutual connections')
-     </p>
-         
-</div>
-<h2>CODE</h2>
-<div>
-     <p>
-          import networkx as nz<br>
-          G_symmetric = nz.Graph()<br>
-          G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str)<br>
-          ch=input('enter your choice')
-          <hr>
-          if ch=='3':<br>
-          count=0<br>
-          nodee=input('enter the node')<br>
-          for n in G_fb.neighbors(nodee):<br>
-            print(n)<br>
-            count+=1<br>
-          print("no.of edges=",count)
-          <hr>
-     if ch=='10': <br>
-    li=[]<br>
-    maxx=0<br>
-    mn=0<br>
-    minnode=0<br>
-    minn=10<br>
-    for i in G_fb:<br>
-        li=list(nz.neighbors(G_fb,i))<br>
-        if(maxx<len(li)):<br>
-            maxx=len(li)<br>
-            mn=i<br>
-        if(minn>len(li)):<br>
-            minn=len(li)<br>
-            minnode=i<br>
-    print("PERSON= "+str(mn)+"  connections= "+str(maxx))<br>
-    print("PERSON= "+str(minnode)+"  connections= "+str(minn))
-     <hr>
-     if ch=='11':<br>
-    p1=input("person A?")<br>
-    p2=input("person B?")<br>
-    print('MUTUAL CONNECTIONS')<br>
-    print(sorted(nz.common_neighbors(G_fb, p1,p2)))
-   
-          
+ <h3> Facebook Network </h3>
+ <p> 
     
- </div>
+ 
  <h2> Problems Faced </h2>
 <h3> Problem Faced 1: Built-in Functions. </h3>
 <p>
