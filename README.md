@@ -111,8 +111,6 @@ Relationship includes,knowing a user which is connected to maximum or minimum nu
     p1=input("person A?")<br>
     p2=input("person B?")<br>
     print('MUTUAL CONNECTIONS')<br>
-  
-    
     print(sorted(nz.common_neighbors(G_fb, p1,p2)))
    
           
