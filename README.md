@@ -57,16 +57,25 @@ SNa: is the process of investigating social structures through the use of networ
                <li>* Organization</li>
           </ul>
      </ul>
-     <li>*Path finding concept</li>
-     <li>*Vertice and Edge concept</li>
-     <li>*Undirected graph as we haven't use weight</li>
+   
 </ul>
  <h3> Facebook Network </h3>
  <p> Facebook is widely used social networking site. We got datasheet of Facebook users which are connected to other users. We came up with our project to get to know about users and and their connections to users, such as mutual friends, connected friends etc </p>
+ <h4> Example: Code </h4>
+ <p>
+ import networkx as nz
+G_symmetric = nz.Graph()
+G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str) </p>
  <h3><center> Find Edges </center></h3>
  <p> We can check total no of edges and and between 2 vertices and line join between 2 nodes called edge. </p>
  <h3> Find Nodes </h3>
- <p> We can check total no of nodes and all total nodes in our graph like set of vertices </p>
+ <p> We can check total no of nodes and all total nodes in our graph like set of vertices </p><br>
+ <p> Path finding concept<p><br>
+ <p>Undirected graph as we haven't use weight</p><br>
+ <p> connected nodes </p> <br>
+ <p> complete information from facebook sheet </p> <br>
+ <p> find closure </p><br>
+ 
     
  
  <h2> Problems Faced </h2>
