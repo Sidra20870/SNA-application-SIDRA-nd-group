@@ -9,11 +9,11 @@
           <table style="width:100%">
   <tr>
     <th>Student Id</th>
-    <th>STudent Name</th> 
+    <th>Student Name</th> 
   </tr>
   <tr>
-    <td>63986</td>
-    <td>Sidra Usman</td>
+       <td><b>63986</b></td>
+       <td><b>Sidra Usman</b></td>
   </tr>
   <tr>
     <td>63813</td>
