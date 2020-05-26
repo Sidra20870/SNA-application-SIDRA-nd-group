@@ -57,9 +57,12 @@
 <h2> Problem Faced </h2>
 <h2> References </h2>
 <button onclick="https://www.datacamp.com/community/tutorials/social-network-analysis-python">HTML Tutorial</button>
-[link] https://www.datacamp.com/community/tutorials/social-network-analysis-python
-[link] https://www.python-course.eu/graphs_python.php
-[link] https://youtu.be/FEyhMlC8xUM
+https://www.datacamp.com/community/tutorials/social-network-analysis-python
+<\br>
+https://www.python-course.eu/graphs_python.php
+<\br>
+https://youtu.be/FEyhMlC8xUM
+<\br>
 </div>
 
 </body>
