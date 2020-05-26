@@ -2,7 +2,7 @@
 ### Project Members
 ###### Student Id | Name
      ------------ | -------------
-        **63986** | **Sidra Usman** 
+        **63986** | _Sidra Usman_ 
             63813 | Muhammad Ammar Haider
             63650 | Dua Javeria
             63814 | Muhammad Saqlain
