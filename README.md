@@ -55,12 +55,8 @@ Relationship includes,knowing a user which is connected to maximum or minimum nu
           </ul>
      </ul>
 </ul>
-<h1>CODE</h1>
-<div>
-     <p>
-          import networkx as nz
-          G_symmetric = nz.Graph()
-          G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str)
+
+ <div>
     </p>
      <center><h3>MENU</h3></center>
      <p>
@@ -75,18 +71,16 @@ Relationship includes,knowing a user which is connected to maximum or minimum nu
           print('press 9 to get SELF CONNECTED PEOPLE')<br>
           print('press 10 to get most connected person')<br>
           print('press 11 to get mutual connections')
-          
-          
-          
-          
      </p>
-          
-     
-     
-     
-     
-     
+         
 </div>
+<h1>CODE</h1>
+<div>
+     <p>
+          import networkx as nz
+          G_symmetric = nz.Graph()
+          G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str)
+ </div>
 <h2> Problem Faced </h2>
 <p>We have use networkx(library) built-in functions which were very difficult to understand but with the help of internet and understand their meta data and overcome this problem. We were facing communication problem among project partners beside this, this library contain limit functions which cause us to think how to distribute functions between the partners. So we decided each partner will do 2-3 functions
   
