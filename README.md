@@ -5,7 +5,7 @@
 <head>
 <body>
 
-<h3 style="color:#FFFF00;">Project Name: </h3> <p>Graph theory using SNA</p>
+<h3 style="color:#FFFF00;">Project Name: </h3> <p>Graph theory using SNA (social network analysis)</p>
 <h4>Project Members:</h4> <p> Sidra Usman 63986, Ammar Haider 63813, Muhammad Saqlain 63814, Dua Javeria 63650, Humaira 63761.</p>
 <h4>Group Leader:</h4> <p> Sidra Usman </p>
 <h3> Project Description: </h3>
