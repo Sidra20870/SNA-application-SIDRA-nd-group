@@ -118,9 +118,9 @@ Relationship includes,knowing a user which is connected to maximum or minimum nu
  </div>
 <h2> Problem Faced </h2>
 <p> 
-     1)We have use networkx(library) built-in functions which were very difficult to understand but with the help of internet and understand their meta data and overcome this problem.
-     2)We were facing communication problem among project partners beside this, this library contain limit functions which cause us to think how to distribute functions between the partners, So we decided each partner will do 2-3 functions
-     3)we never had an experince of importing any social organization data into our project.finding and importing data took our huge      time. 
+     1)We have use networkx(library) built-in functions which were very difficult to understand but with the help of internet and understand their meta data and overcome this problem.</BR>
+     2)We were facing communication problem among project partners beside this, this library contain limit functions which cause us to think how to distribute functions between the partners, So we decided each partner will do 2-3 functions</BR>
+     3)we never had an experince of importing any social organization data into our project.finding and importing data took our huge      time. </BR>
 </p>
 <h2> References </h2>
 https://networkx.github.io/documentation/stable/reference/functions.html<br>
