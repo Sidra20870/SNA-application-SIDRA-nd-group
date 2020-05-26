@@ -57,11 +57,8 @@
 <h2> Problem Faced </h2>
 <h2> References </h2>
 https://www.datacamp.com/community/tutorials/social-network-analysis-python
-<\br>
 https://www.python-course.eu/graphs_python.php
-<\br>
 https://youtu.be/FEyhMlC8xUM
-<\br>
 </div>
 
 </body>
