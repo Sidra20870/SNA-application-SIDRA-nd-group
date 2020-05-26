@@ -60,6 +60,7 @@ SNa: is the process of investigating social structures through the use of networ
      </ul>
 </ul>
  <h3> Facebook Network </h3>
+ <h3><center> Find Edges </center></h3>
  <p> 
     
  
