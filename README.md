@@ -69,12 +69,12 @@ G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), node
  <h3><center> Find Edges </center></h3>
  <p> We can check total no of edges and and between 2 vertices and line join between 2 nodes called edge. </p>
  <h3> Find Nodes </h3>
- <p> We can check total no of nodes and all total nodes in our graph like set of vertices </p><br>
- <p> Path finding concept<p><br>
- <p>Undirected graph as we haven't use weight</p><br>
- <p> connected nodes </p> <br>
- <p> complete information from facebook sheet </p> <br>
- <p> find closure </p><br>
+ <p> We can check total no of nodes and all total nodes in our graph like set of vertices </p>
+ <p> Path finding concept<p>
+ <p>Undirected graph as we haven't use weight</p>
+ <p> connected nodes </p> 
+ <p> complete information from facebook sheet </p> 
+ <p> find closure </p>
  
     
  
