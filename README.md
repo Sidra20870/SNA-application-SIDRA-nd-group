@@ -120,6 +120,7 @@ SNa: is the process of investigating social structures through the use of networ
           
     
  </div>
+ <h2> Problems Faced </h2>
 <h3> Problem Faced 1: Built-in Functions. </h3>
 <p>
      1) we have use networkx(library) built-in functions which were very difficult to understand but with the help of internet and understand their meta data and overcome this problem.</p></BR>
