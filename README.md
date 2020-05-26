@@ -58,7 +58,7 @@ Relationship includes,knowing a user which is connected to maximum or minimum nu
 
  <div>
     </p>
-     <center><h3>MENU</h3></center>
+     <center><h2>MENU</h2></center>
      <p>
           print('press 1 to get number of nodes')<br>
           print('press 2 to get number of edges')<br>
@@ -74,12 +74,49 @@ Relationship includes,knowing a user which is connected to maximum or minimum nu
      </p>
          
 </div>
-<h1>CODE</h1>
+<h2>CODE</h2>
 <div>
      <p>
           import networkx as nz
           G_symmetric = nz.Graph()
           G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str)
+          ch=input('enter your choice')
+          <hr>
+          if ch=='3':
+          count=0
+          nodee=input('enter the node')
+          for n in G_fb.neighbors(nodee):
+            print(n)
+            count+=1
+          print("no.of edges=",count)
+          <hr>
+     if ch=='10': 
+    li=[]
+    maxx=0
+    mn=0
+    minnode=0
+    minn=10
+    for i in G_fb:
+        li=list(nz.neighbors(G_fb,i))
+        if(maxx<len(li)):
+            maxx=len(li)
+            mn=i
+        if(minn>len(li)):
+            minn=len(li)
+            minnode=i
+    print("PERSON= "+str(mn)+"  connections= "+str(maxx))
+    print("PERSON= "+str(minnode)+"  connections= "+str(minn))
+     <hr>
+     if ch=='11':
+    p1=input("person A?")
+    p2=input("person B?")
+    print('MUTUAL CONNECTIONS')
+  
+    
+    print(sorted(nz.common_neighbors(G_fb, p1,p2)))
+   
+          
+     </p>
  </div>
 <h2> Problem Faced </h2>
 <p>We have use networkx(library) built-in functions which were very difficult to understand but with the help of internet and understand their meta data and overcome this problem. We were facing communication problem among project partners beside this, this library contain limit functions which cause us to think how to distribute functions between the partners. So we decided each partner will do 2-3 functions
