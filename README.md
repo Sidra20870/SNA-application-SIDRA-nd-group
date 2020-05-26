@@ -62,6 +62,7 @@ SNa: is the process of investigating social structures through the use of networ
      <li>*Undirected graph as we haven't use weight</li>
 </ul>
  <h3> Facebook Network </h3>
+ <p> Facebook is widely used social networking site. We got datasheet of Facebook users which are connected to other users. We came up with our project to get to know about users and and their connections to users, such as mutual friends, connected friends etc </p>
  <h3><center> Find Edges </center></h3>
  <p> We can check total no of edges and and between 2 vertices and line join between 2 nodes called edge. </p>
  <h3> Find Nodes </h3>
