@@ -64,16 +64,16 @@ Relationship includes,knowing a user which is connected to maximum or minimum nu
     </p>
      <center><h3>MENU</h3></center>
      <p>
-          print('press 1 to get number of nodes')
-          print('press 2 to get number of edges')
-          print('press 3 to get number of connected nodes')
-          print('press 4 to draw graph')
-          print('press 5 to get  path')
-          print('press 6 to shortest path ')
-          print('press 7 to get information')
-          print('press 8 to get triadic closure')
-          print('press 9 to get SELF CONNECTED PEOPLE')
-          print('press 10 to get most connected person')
+          print('press 1 to get number of nodes')<br>
+          print('press 2 to get number of edges')<br>
+          print('press 3 to get number of connected nodes')<br>
+          print('press 4 to draw graph')<br>
+          print('press 5 to get  path')<br>
+          print('press 6 to shortest path ')<br>
+          print('press 7 to get information')<br>
+          print('press 8 to get triadic closure')<br>
+          print('press 9 to get SELF CONNECTED PEOPLE')<br>
+          print('press 10 to get most connected person')<br>
           print('press 11 to get mutual connections')
           
           
