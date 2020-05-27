@@ -46,7 +46,7 @@ SNa: is the process of investigating social structures through the use of networ
 <h2>Discrete Math Concepts Used </h2>
 <ul>
      <li>*Graph theory using social network analysis</li>
-     <li>*Analyze any data from network social media</li>
+     <li>*Analyzing data from social network media</li>
      <li>*Long time existence</li>
      <li>*Mapping :</li>
      <ul>
@@ -66,15 +66,15 @@ SNa: is the process of investigating social structures through the use of networ
  import networkx as nz
 G_symmetric = nz.Graph()
 G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str) </p>
- <h3><center> Find Edges </center></h3>
- <p> We can check total no of edges and and between 2 vertices and line join between 2 nodes called edge. </p>
- <h3> Find Nodes </h3>
+ <h3><center> Finding Edges </center></h3>
+ <p> We can check total no of edges. </p>
+ <h3> Finding Nodes </h3>
  <p> We can check total no of nodes and all total nodes in our graph like set of vertices </p>
  <p> Path finding concept<p>
- <p>Undirected graph as we haven't use weight</p>
+ <p>Un-weighted graph as we didn't use weight</p>
  <p> connected nodes </p> 
  <p> complete information from facebook sheet </p> 
- <p> find closure </p>
+ <p> finding closure </p>
  
     
  
