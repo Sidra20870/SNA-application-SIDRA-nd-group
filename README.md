@@ -96,7 +96,6 @@ G_symmetric = nz.Graph()
      3) we never had an experince of importing any social organization data into our project.finding and importing data took our huge      time.</p> </BR>
 <h2> References </h2>
 https://networkx.github.io/documentation/stable/reference/functions.html<br>
-https://www.datacamp.com/community/tutorials/social-network-analysis-python<br>
 https://www.python-course.eu/graphs_python.php<br>
 https://metacpan.org/pod/SNA::Network
 
