@@ -57,23 +57,23 @@ SNa: is the process of investigating social structures through the use of networ
                <li>* Organization</li>
           </ul>
      </ul>
-      <ul>Facebook Network 
-      <li> Facebook is widely used social networking site. We got datasheet of Facebook users which are connected to other users. We came up with our project to get to know about users and and their connections to users, such as mutual friends, connected friends etc </li></ul>
-<ul> Example: Code 
- <li>
+      <li><Facebook Network</li> 
+      <ul> Facebook is widely used social networking site. We got datasheet of Facebook users which are connected to other users. We came up with our project to get to know about users and and their connections to users, such as mutual friends, connected friends etc </ul>
+<li> Example: Code</li> 
+ <ul>
  import networkx as nz
 G_symmetric = nz.Graph()
-G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str) </li></ul>
- <ul> Find Edges 
- <li> We can check total no of edges and and between 2 vertices and line join between 2 nodes called edge. </li></ul>
- <ul> Find Nodes 
+G_fb = nz.read_edgelist('facebook_combined.txt', create_using = nz.Graph(), nodetype=str) </ul>
+ <li> Find Edges</li> 
+ <ul> We can check total no of edges and and between 2 vertices and line join between 2 nodes called edge. </ul>
+ <li> Find Nodes </li>
      
- <li>*We can check total no of nodes and all total nodes in our graph like set of vertices </li>
- <li>*Path finding concept<li>
- <li>*Undirected graph as we haven't use weight</li>
- <li>*Neigbour nodes </li> 
- <li>*Complete information from facebook sheet </li> 
- <li>*Finding closure </li></ul>
+ <ul>*We can check total no of nodes and all total nodes in our graph like set of vertices </ul>
+ <ul>*Path finding concept</ul>
+ <ul>*Undirected graph as we haven't use weight</ul>
+ <ul>*Neigbour nodes </ul> 
+ <ul>*Complete information from facebook sheet </ul> 
+ <ul>*Finding closure </ul>
  
 </ul>
  
