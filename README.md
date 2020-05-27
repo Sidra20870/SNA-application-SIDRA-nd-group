@@ -59,7 +59,7 @@ SNa: is the process of investigating social structures through the use of networ
      </ul>
       <li><Facebook Network</li> 
       <ul> Facebook is widely used social networking site. We got datasheet of Facebook users which are connected to other users. We came up with our project to get to know about users and and their connections to users, such as mutual friends, connected friends etc </ul>
-<li> Example: Code</li> 
+     <li><b> Example: Code </b></li> 
  <ul>
  import networkx as nz
 G_symmetric = nz.Graph()
